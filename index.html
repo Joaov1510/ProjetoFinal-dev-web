@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda+ — Plataforma de cursos online em diversas áreas. Tecnologia, Marketing, Design, Saúde e muito mais. Comece agora sua jornada de aprendizado.">
+    <title>Aprenda+ | Plataforma de Cursos Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+
+<header class="cabecalho" id="topo">
+    <div class="logo">
+        <span class="logo-icone"><i class="fa-solid fa-diamond"></i></span>
+        <div>
+            <span class="logo-nome">Aprenda+</span>
+            <span class="logo-subtitulo">PLATAFORMA DE CURSOS</span>
+        </div>
+    </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#areas">Áreas</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#professores">Professores</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="cabecalho-botoes">
+        <a href="#" class="botao-entrar">Entrar</a>
+        <a href="#" class="botao-roxo">Cadastre-se</a>
+    </div>
+</header>
+
+<section class="secao secao-hero" id="inicio">
+    <div class="conteudo">
+        <div class="coluna-esquerda reveal">
+            <p class="titulo-secao">INÍCIO</p>
+            <h1><span class="roxo">Aprenda</span> o que quiser, quando e onde estiver.</h1>
+            <p class="descricao">Cursos online em diversas áreas para impulsionar seu conhecimento e sua carreira. Aprenda no seu ritmo com os melhores instrutores do mercado.</p>
+            <a href="#cursos" class="botao-roxo botao-grande">COMECE AGORA</a>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <strong>+2.500</strong>
+                    <span>Cursos</span>
+                </div>
+                <div class="hero-stat">
+                    <strong>+50k</strong>
+                    <span>Alunos</span>
+                </div>
+                <div class="hero-stat">
+                    <strong>4.8<i class="fa-solid fa-star"></i></strong>
+                    <span>Avaliação</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="coluna-direita reveal">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/52382116-8e62-49d4-b6aa-8abbc22a2e10.png" class="d-block w-100" alt="Estudante aprendendo online na plataforma Aprenda+">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/8778e946-086b-4a45-9278-e85281f70a59.png" class="d-block w-100" alt="Aula ao vivo com instrutor especializado">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/9aad6098-8aa2-4505-ad41-0f9f9ebb5a7c.png" class="d-block w-100" alt="Certificado de conclusão de curso">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+            <div class="badge-cursos">
+                <strong>+2.500</strong>
+                <span>cursos disponíveis</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="secao" id="areas">
+    <div class="conteudo">
+        <div class="secao-header reveal">
+            <div>
+                <p class="titulo-secao">CATEGORIAS EM DESTAQUE</p>
+                <p class="subtitulo-secao">Encontre o curso ideal para você.</p>
+            </div>
+            <a href="#" class="link-direita">Ver todas as categorias →</a>
+        </div>
+
+        <div class="grid-areas">
+            <div class="card-area reveal">
+                <span class="icone-area fundo-azul"><i class="bi bi-laptop"></i></span>
+                <div>
+                    <strong>Tecnologia</strong>
+                    <span class="qtd-cursos">423 cursos</span>
+                </div>
+            </div>
+
+            <div class="card-area reveal">
+                <span class="icone-area fundo-verde"><i class="bi bi-graph-up-arrow"></i></span>
+                <div>
+                    <strong>Negócios</strong>
+                    <span class="qtd-cursos">362 cursos</span>
+                </div>
+            </div>
+
+            <div class="card-area reveal">
+                <span class="icone-area fundo-laranja"><i class="bi bi-person"></i></span>
+                <div>
+                    <strong>Desenvolvimento Pessoal</strong>
+                    <span class="qtd-cursos">297 cursos</span>
+                </div>
+            </div>
+
+            <div class="card-area reveal">
+                <span class="icone-area fundo-rosa"><i class="bi bi-pencil"></i></span>
+                <div>
+                    <strong>Design</strong>
+                    <span class="qtd-cursos">245 cursos</span>
+                </div>
+            </div>
+
+            <div class="card-area reveal">
+                <span class="icone-area fundo-roxo"><i class="bi bi-megaphone"></i></span>
+                <div>
+                    <strong>Marketing</strong>
+                    <span class="qtd-cursos">198 cursos</span>
+                </div>
+            </div>
+
+            <div class="card-area reveal">
+                <span class="icone-area fundo-verde-agua"><i class="bi bi-heart-pulse"></i></span>
+                <div>
+                    <strong>Saúde e Bem-estar</strong>
+                    <span class="qtd-cursos">176 cursos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="secao secao-cursos-bg" id="cursos">
+    <div class="conteudo">
+        <div class="cursos-layout">
+
+            <div class="bloco-cursos">
+                <div class="secao-header reveal">
+                    <div>
+                        <p class="titulo-secao">CURSOS EM DESTAQUE</p>
+                        <p class="subtitulo-secao">Explore nossos cursos mais procurados.</p>
+                    </div>
+                    <a href="#" class="link-direita">Ver todos os cursos →</a>
+                </div>
+
+                <div class="card-curso reveal" id="curso-1">
+                    <button class="cabecalho-curso" aria-expanded="false">
+                        <img src="imagens/cursos1.jpg" alt="Curso de Python">
+                        <div class="info-curso">
+                            <span class="etiqueta azul-claro">Tecnologia</span>
+                            <h4>Python do Zero ao Avançado</h4>
+                            <p class="avaliacao"><i class="fa-solid fa-star"></i> 4,8 (1.250) | Iniciante ao Avançado</p>
+                        </div>
+                        <div class="preco-curso">
+                            R$ 97,00
+                            <span class="seta"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </button>
+                    <div class="corpo-curso">
+                        <div class="corpo-curso-inner">
+                            <p>Aprenda Python do básico ao avançado com projetos práticos e didáticos. Inclui automação, análise de dados e desenvolvimento web.</p>
+                            <a href="#" class="botao-roxo">Acessar curso</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-curso reveal" id="curso-2">
+                    <button class="cabecalho-curso" aria-expanded="false">
+                        <img src="imagens/cursos2.jpg" alt="Curso de Marketing Digital">
+                        <div class="info-curso">
+                            <span class="etiqueta roxo-claro">Marketing</span>
+                            <h4>Marketing Digital na Prática</h4>
+                            <p class="avaliacao"><i class="fa-solid fa-star"></i> 4,7 (980) | Intermediário</p>
+                        </div>
+                        <div class="preco-curso">
+                            R$ 79,00
+                            <span class="seta"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </button>
+                    <div class="corpo-curso">
+                        <div class="corpo-curso-inner">
+                            <p>Domine as principais ferramentas e estratégias do marketing digital. Google Ads, Meta Ads, SEO e muito mais.</p>
+                            <a href="#" class="botao-roxo">Acessar curso</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-curso reveal" id="curso-3">
+                    <button class="cabecalho-curso" aria-expanded="false">
+                        <img src="imagens/cursos3.jpg" alt="Curso de Fotografia">
+                        <div class="info-curso">
+                            <span class="etiqueta rosa-claro">Design</span>
+                            <h4>Fotografia para Iniciantes</h4>
+                            <p class="avaliacao"><i class="fa-solid fa-star"></i> 4,9 (720) | Iniciante</p>
+                        </div>
+                        <div class="preco-curso">
+                            R$ 69,00
+                            <span class="seta"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </button>
+                    <div class="corpo-curso">
+                        <div class="corpo-curso-inner">
+                            <p>Aprenda a fotografar com qualquer câmera, entendendo luz, composição e edição profissional.</p>
+                            <a href="#" class="botao-roxo">Acessar curso</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-curso reveal" id="curso-4">
+                    <button class="cabecalho-curso" aria-expanded="false">
+                        <img src="imagens/cursos4.jpg" alt="Curso de Mindfulness">
+                        <div class="info-curso">
+                            <span class="etiqueta verde-claro">Saúde e Bem-estar</span>
+                            <h4>Mindfulness e Bem-estar</h4>
+                            <p class="avaliacao"><i class="fa-solid fa-star"></i> 4,8 (650) | Todos os níveis</p>
+                        </div>
+                        <div class="preco-curso">
+                            R$ 59,00
+                            <span class="seta"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </button>
+                    <div class="corpo-curso">
+                        <div class="corpo-curso-inner">
+                            <p>Técnicas práticas de mindfulness para reduzir o estresse, melhorar o foco e alcançar equilíbrio emocional.</p>
+                            <a href="#" class="botao-roxo">Acessar curso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloco-professores" id="professores">
+                <div class="secao-header reveal">
+                    <div>
+                        <p class="titulo-secao">INSTRUTORES EM DESTAQUE</p>
+                        <p class="subtitulo-secao">Aprenda com referências do mercado.</p>
+                    </div>
+                    <a href="#" class="link-direita">Ver todos <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+                <div class="card-professor-reveal">
+                    <img src="imagens/prof1.jpg" alt="Foto do instrutor Lucas Andrade">
+                    <strong>Lucas Andrade</strong>
+                    <p>Desenvolvedor e Instrutor</p>
+                    <p class="nota-professor"><i class="fa-solid fa-star"></i> 4,9 (1.320)</p>
+                    <p>+20 cursos</p>
+                    <div class="info-extra-professor">
+                        <span><i class="bi bi-geo-alt"></i> São Paulo, SP</span>
+                        <span><i class="bi bi-mortarboard"></i> Ciência da Computação — USP</span>
+                        <span><i class="bi bi-chat-dots"></i> Responde em até 3h</span>
+                    </div>
+                </div>
+
+                <div class="card-professor-reveal">
+                    <img src="imagens/prof2.jpg" alt="Foto da instrutora Mariana Souza">
+                    <strong>Mariana Souza</strong>
+                    <p>Especialista em Marketing</p>
+                    <p class="nota-professor"><i class="fa-solid fa-star"></i> 4,8 (980)</p>
+                    <p>+15 cursos</p>
+                    <div class="info-extra-professor">
+                        <span><i class="bi bi-geo-alt"></i> Belo Horizonte, MG</span>
+                        <span><i class="bi bi-mortarboard"></i> MBA em Marketing Digital — FGV</span>
+                        <span><i class="bi bi-chat-dots"></i> Responde em até 1h</span>
+                    </div>
+                </div>
+                <div class="card-professor-reveal">
+                    <img src="imagens/imagem4trab.jpg" alt="Foto do instrutora Roberta">
+                    <strong>Roberta Silva</strong>
+                    <p>Desenvolvedor e Instrutor</p>
+                    <p class="nota-professor"><i class="fa-solid fa-star"></i> 4,7 (1.320)</p>
+                    <p>+20 cursos</p>
+                    <div class="info-extra-professor">
+                        <span><i class="bi bi-geo-alt"></i> São Paulo, SP</span>
+                        <span><i class="bi bi-mortarboard"></i> Produção multimidia — USP</span>
+                        <span><i class="bi bi-chat-dots"></i> Responde em até 3h</span>
+                    </div>
+                </div>
+                <div class="card-professor-reveal">
+                    <img src="imagens/imagemtrab5.jpg" alt="Foto do instrutor Jorge">
+                    <strong>Jorge Aragão</strong>
+                    <p>Desenvolvedor e Instrutor</p>
+                    <p class="nota-professor"><i class="fa-solid fa-star"></i> 4,3 (1.320)</p>
+                    <p>+20 cursos</p>
+                    <div class="info-extra-professor">
+                        <span><i class="bi bi-geo-alt"></i> Porto Alegre, RS</span>
+                        <span><i class="bi bi-mortarboard"></i> Administração — UFRGS</span>
+                        <span><i class="bi bi-chat-dots"></i> Responde em até 3h</span>
+                    </div>
+                </div>
+                <div class="card-professor-reveal">
+                    <img src="imagens/imagenstrab6.jpg" alt="Foto do instrutor Tiago">
+                    <strong>Tiago Ventura</strong>
+                    <p>Desenvolvedor e Instrutor</p>
+                    <p class="nota-professor"><i class="fa-solid fa-star"></i> 4,1 (1.320)</p>
+                    <p>+20 cursos</p>
+                    <div class="info-extra-professor">
+                        <span><i class="bi bi-geo-alt"></i> Porto Alegre, RS</span>
+                        <span><i class="bi bi-mortarboard"></i> Artes visuais — UFRGS</span>
+                        <span><i class="bi bi-chat-dots"></i> Responde em até 1h</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="secao" id="depoimentos">
+    <div class="conteudo">
+        <div class="secao-header reveal">
+            <div>
+                <p class="titulo-secao">DEPOIMENTOS</p>
+                <p class="subtitulo-secao">O que nossos alunos dizem.</p>
+            </div>
+            <a href="#" class="link-direita">Ver mais depoimentos <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+        <div class="grid-depoimentos">
+            <div class="card-depoimento">
+                <div class="estrelas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i></div>
+                <p>"A plataforma Aprenda+ mudou minha carreira. Consegui minha primeira vaga como desenvolvedor após concluir o curso de Python!"</p>
+                <div class="depoimento-autor">
+                    <img src="imagens/rafael.jpg" alt="Foto de Rafael Costa">
+                    <div>
+                        <strong>Rafael Costa</strong>
+                        <span>Desenvolvedor Jr. — São Paulo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-depoimento">
+                <div class="estrelas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>"Os cursos de marketing são incríveis. Didática excelente e conteúdo atualizado. Recomendo para todos que querem se especializar."</p>
+                <div class="depoimento-autor">
+                    <img src="imagens/anab.jpg" alt="Foto de Ana Beatriz">
+                    <div>
+                        <strong>Ana Beatriz</strong>
+                        <span>Analista de Marketing — RJ</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-depoimento">
+                <div class="estrelas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>"Fiz o curso de fotografia e já comecei a trabalhar como freelancer. A qualidade das aulas supera muito o investimento."</p>
+                <div class="depoimento-autor">
+                    <img src="imagens/pedroh.jpg" alt="Foto de Pedro Henrique">
+                    <div>
+                        <strong>Pedro Henrique</strong>
+                        <span>Fotógrafo Freelancer — MG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bloco-newsletter">
+    <div class="newsletter-inner">
+        <p class="titulo-secao">NEWSLETTER</p>
+        <p class="subtitulo-secao">Receba novidades e ofertas exclusivas no seu e-mail.</p>
+        <form>
+            <input type="email" placeholder="Seu melhor e-mail" class="campo-email" required aria-label="Seu endereço de e-mail">
+            <button type="submit" class="botao-roxo">QUERO RECEBER</button>
+        </form>
+    </div>
+</section>
+
+<footer class="rodape" id="contato">
+    <div class="conteudo">
+        <div class="footer-contato reveal">
+            <p class="titulo-secao">CONTATO</p>
+            <p class="subtitulo-secao">Fale com a gente</p>
+        </div>
+
+        <div class="footer-top">
+            <div class="coluna-rodape">
+                <p>Estamos aqui para ajudar você na sua jornada de aprendizado.</p>
+                <p><i class="bi bi-telephone"></i> (11) 98765-4321</p>
+                <p><i class="bi bi-envelope"></i> contato@aprendamais.com.br</p>
+                <p><i class="bi bi-geo-alt"></i> Av. Paulista, 1000 — São Paulo, SP</p>
+            </div>
+
+            <div class="coluna-rodape">
+                <strong>Institucional</strong>
+                <a href="#">Sobre nós</a>
+                <a href="#">Como funciona</a>
+                <a href="#">Carreiras</a>
+                <a href="#">Blog</a>
+            </div>
+
+            <div class="coluna-rodape">
+                <strong>Ajuda</strong>
+                <a href="#">Central de Ajuda</a>
+                <a href="#">Perguntas Frequentes</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+            </div>
+
+            <div class="coluna-rodape">
+                <strong>Siga-nos</strong>
+                <a href="https://www.facebook.com/senacrsoficial/?locale=pt_BR" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/joaojvc_/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://www.youtube.com/@senacsaopaulo" target="_blank"><i class="bi bi-youtube"></i> YouTube</a>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-ferreira-baa451251/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="footer-mapa-logo">
+            <div class="mapa reveal">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d271.81647768900126!2d-46.65273566327043!3d-23.564425106817378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1783272969335!5m2!1spt-BR!2sbr" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Localização da Aprenda+ no mapa"></iframe>
+            </div>
+            <div class="footer-logo reveal">
+                <span class="logo-icone"><i class="fa-solid fa-diamond"></i></span>
+                <span class="logo-nome">Aprenda+</span>
+                <p>Transformando conhecimento em oportunidades.</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Aprenda+. Todos os direitos reservados.</p>
+            <div class="pagamentos">
+                <span>VISA</span>
+                <span>MASTERCARD</span>
+                <span>BOLETO</span>
+                <span>PIX</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<button class="botao-topo" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
