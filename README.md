@@ -6,7 +6,7 @@ Landing Page de uma plataforma de cursos online desenvolvida utilizando **HTML, 
 
 Clique no link abaixo para visualizar o projeto:
 
-🔗 **https://joaov1510.github.io/ProjetoLinkedIn/**
+🔗 **[https://joaov1510.github.io/ProjetoLinkedIn/](https://joaov1510.github.io/ProjetoFinal-dev-web/)**
 
 ## 🛠 Tecnologias
 
